@@ -20,7 +20,7 @@ ini_set('display_errors', 1);
   <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
     <div class="container">
       <a class="navbar-brand" href="#home">
-        <img src="assets/img/téléchargement (1).png" alt="Calculus Plus" height="40">
+        <img src="assets/img/Calculus_Plus_Logo_HD copie_063528.png" alt="Calculus Plus" height="70">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
@@ -31,7 +31,7 @@ ini_set('display_errors', 1);
           <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
           <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
           <li class="nav-item"><a class="nav-link" href="#expertise">Expertise</a></li>
-          <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li> -->
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
           <!-- <li class="nav-item">
             <a class="nav-link btn btn-primary ms-2" href="#contact">Commencer</a>
@@ -116,7 +116,7 @@ ini_set('display_errors', 1);
           </ul>
         </div>
         <div class="col-lg-6 col-sm-12">
-          <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200"
+          <img src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1200"
             alt="Team collaboration" class="img-fluid rounded-4 shadow-lg">
         </div>
       </div>
@@ -176,76 +176,13 @@ ini_set('display_errors', 1);
     </div>
   </section>
 
-  <!-- Blog Section -->
-  <!-- <section id="blog" class="py-5">
-    <?php include 'composants/blog.php'; ?>
-  </section> -->
-
   <!-- Contact Section -->
   <section id="contact" class="py-5 bg-light">
     <?php include 'composants/contact.php'; ?>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-dark text-white py-5 mt-5">
-    <div class="container">
-      <div class="row g-4 mb-4">
-        <div class="col-md-6 col-lg-3">
-          <img src="assets/img/téléchargement (1).png" alt="Calculus Plus" height="40" class="mb-3">
-          <p class="text-secondary mb-2">Innover. Transformer. Réussir.</p>
-          <p class="text-secondary small">Votre partenaire de confiance pour la transformation digitale en Afrique</p>
-        </div>
-
-        <div class="col-md-6 col-lg-3">
-          <h6 class="fw-bold mb-3">Liens Rapides</h6>
-          <ul class="list-unstyled text-secondary">
-            <li class="mb-2"><a href="#home" class="text-secondary text-decoration-none footer-link">Accueil</a></li>
-            <li class="mb-2"><a href="#about" class="text-secondary text-decoration-none footer-link">À propos</a></li>
-            <li class="mb-2"><a href="#services" class="text-secondary text-decoration-none footer-link">Services</a>
-            </li>
-            <li class="mb-2"><a href="#expertise" class="text-secondary text-decoration-none footer-link">Expertise</a>
-            </li>
-            <li><a href="#contact" class="text-secondary text-decoration-none footer-link">Contact</a></li>
-          </ul>
-        </div>
-
-        <div class="col-md-6 col-lg-3">
-          <h6 class="fw-bold mb-3">Nos Services</h6>
-          <ul class="list-unstyled text-secondary small">
-            <li class="mb-2">Transformation Digitale</li>
-            <li class="mb-2">Développement IT</li>
-            <li class="mb-2">Solutions FinTech</li>
-            <li>Conseil Stratégique</li>
-          </ul>
-        </div>
-
-        <div class="col-md-6 col-lg-3">
-          <h6 class="fw-bold mb-3">Suivez-Nous</h6>
-          <div class="d-flex gap-2 mb-3">
-            <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="social-icon"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
-            <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
-          </div>
-          <p class="text-secondary small mb-1">Email</p>
-          <a href="mailto:contact@calculusplus.com"
-            class="text-success text-decoration-none">contact@calculusplus.com</a>
-        </div>
-      </div>
-
-      <hr class="text-secondary">
-      <div class="row">
-        <div class="col-md-6">
-          <p class="text-secondary small mb-0">© 2024 Calculus Plus. Tous droits réservés.</p>
-        </div>
-        <div class="col-md-6 text-md-end">
-          <a href="#" class="text-secondary text-decoration-none footer-link small">Politique de confidentialité</a>
-          <span class="text-secondary mx-2">|</span>
-          <a href="#" class="text-secondary text-decoration-none footer-link small">Conditions d'utilisation</a>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <?php include 'composants/footer.php'; ?>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/script.js"></script> 
