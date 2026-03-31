@@ -177,9 +177,9 @@ ini_set('display_errors', 1);
   </section>
 
   <!-- Blog Section -->
-  <section id="blog" class="py-5">
+  <!-- <section id="blog" class="py-5">
     <?php include 'composants/blog.php'; ?>
-  </section>
+  </section> -->
 
   <!-- Contact Section -->
   <section id="contact" class="py-5 bg-light">

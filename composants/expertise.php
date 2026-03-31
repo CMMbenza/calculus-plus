@@ -8,7 +8,7 @@
     </div>
 
     <div class="row g-4">
-        <div class="col-md-6 col-lg-3">
+        <div class="col-md-6 col-lg-4 col-sm-12">
             <div class="expertise-card p-4 rounded-3 bg-white shadow-sm h-100">
                 <div class="gradient-icon mb-3">
                     <i class="bi bi-lightning-charge"></i>
@@ -18,7 +18,7 @@
                     meilleures technologies</p>
             </div>
         </div>
-        <div class="col-md-6 col-lg-3">
+        <!-- <div class="col-md-6 col-lg-4 col-sm-12">
             <div class="expertise-card p-4 rounded-3 bg-white shadow-sm h-100">
                 <div class="gradient-icon gradient-icon-alt mb-3">
                     <i class="bi bi-code-slash"></i>
@@ -28,8 +28,8 @@
                     vos
                     besoins</p>
             </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
+        </div> -->
+        <div class="col-md-6 col-lg-4 col-sm-12">
             <div class="expertise-card p-4 rounded-3 bg-white shadow-sm h-100">
                 <div class="gradient-icon mb-3">
                     <i class="bi bi-cash-coin"></i>
@@ -39,7 +39,7 @@
                 </p>
             </div>
         </div>
-        <div class="col-md-6 col-lg-3">
+        <div class="col-md-6 col-lg-4 col-sm-12">
             <div class="expertise-card p-4 rounded-3 bg-white shadow-sm h-100">
                 <div class="gradient-icon gradient-icon-alt mb-3">
                     <i class="bi bi-lightbulb-fill"></i>
