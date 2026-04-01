@@ -43,7 +43,7 @@
                     </div>
                     <div>
                         <h6 class="fw-bold text-dark mb-1">Téléphone</h6>
-                        <a href="tel:+242" class="text-primary text-decoration-none">+242 XXX XXX XXX</a>
+                        <a href="tel:+242" class="text-primary text-decoration-none">+242 05-396-84-45</a>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
         </div>
 
         <div class="col-lg-6">
-            <form class="bg-white p-5 rounded-3 shadow-sm" id="contactForm">
+            <form action="send-mail.php" method="POST" class="bg-white p-5 rounded-3 shadow-sm" id="contactForm">
                 <div class="mb-3">
                     <label for="name" class="form-label fw-semibold text-dark">Nom complet</label>
                     <input type="text" class="form-control border-0 bg-light" id="name" name="name" required>
