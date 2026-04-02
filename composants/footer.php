@@ -2,7 +2,7 @@
     <div class="container">
       <div class="row g-4 mb-4">
         <div class="col-md-6 col-lg-3">
-          <img src="assets/img/Calculus_Plus_Logo_HD copie_063528.png" alt="Calculus Plus" height="40" class="mb-3">
+          <img src="assets/img/CALCULUS HD_082347.png" alt="Calculus Plus" height="40" class="mb-3">
           <p class="text-secondary mb-2">Innover. Transformer. Réussir.</p>
           <p class="text-secondary small">Votre partenaire de confiance pour la transformation digitale en Afrique</p>
         </div>
